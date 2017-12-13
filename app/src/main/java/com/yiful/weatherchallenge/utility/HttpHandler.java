@@ -15,8 +15,8 @@ import java.net.URL;
  */
 
 public class HttpHandler {
-    public static final String CURRENT_URL = "http://api.openweathermap.org/data/2.5/weather?q=chicago&appid=750e4095642e32506aa73856eba627bf";
-    public static final String FORECAST_URL = "http://api.openweathermap.org/data/2.5/forecast?q=chicago&appid=750e4095642e32506aa73856eba627bf";
+    public static final String CURRENT_URL = "http://api.openweathermap.org/data/2.5/weather?q=chicago&units=imperial&appid=750e4095642e32506aa73856eba627bf";
+    public static final String FORECAST_URL = "http://api.openweathermap.org/data/2.5/forecast?q=chicago&units=imperial&appid=750e4095642e32506aa73856eba627bf";
     public HttpHandler(){
 
     }

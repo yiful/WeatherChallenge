@@ -146,8 +146,8 @@ public class MainActivity extends AppCompatActivity {
                 progressDialog.dismiss();
             }
 
-            tvHigh.setText("High: "+high+"°");
-            tvLow.setText("Low: "+low + "°");
+            tvHigh.setText("High: "+high+"°F");
+            tvLow.setText("Low: "+low + "°F");
             tvWeather.setText(weather);
             imageView.setImageResource(map.get(img));
             Calendar calendar = Calendar.getInstance();

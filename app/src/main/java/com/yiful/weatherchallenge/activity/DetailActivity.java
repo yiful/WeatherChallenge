@@ -27,8 +27,8 @@ public class DetailActivity extends AppCompatActivity {
         tvPressure = findViewById(R.id.tvPressure);
         weatherDetail = getIntent().getParcelableExtra("weatherDetail");
 
-        tvHigh.setText("Low: "+weatherDetail.getHigh()+"°");
-        tvLow.setText("High: "+weatherDetail.getLow() + "°");
+        tvHigh.setText("Low: "+weatherDetail.getHigh()+"°F");
+        tvLow.setText("High: "+weatherDetail.getLow() + "°F");
         tvWeather.setText(weatherDetail.getWeather());
         imageView.setImageResource(weatherDetail.getImgRes());
         tvDate.setText(weatherDetail.getDate());
